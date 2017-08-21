@@ -12,6 +12,8 @@
 
     <title>Simon Game</title>
 
+    <!-- Boostrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
@@ -22,7 +24,35 @@
 
 <body>
 
-
+    <main class="mx-auto">
+        <div class="row">
+            <div class="col">
+                <div class="btn-color" role="button" id="green"></div>
+            </div>
+            <div class="col"></div>
+            <div class="col">
+                <div class="btn-color" role="button" id="red"></div>                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <div class="screen mx-auto center">00</div>
+                <div class="btn mx-auto center" id="start">Start</div>
+                <div class="btn mx-auto center" id="strict">Strict</div>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="btn-color" role="button" id="yellow"></div>                
+            </div>
+            <div class="col"></div>
+            <div class="col">
+                <div class="btn-color" role="button" id="blue"></div>                
+            </div>
+        </div>
+    </main>
 
     <!-- JavaScript files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
