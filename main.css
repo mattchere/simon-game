@@ -76,3 +76,23 @@ main {
     background-color: grey;
     cursor: pointer;
 }
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.selected {
+    background-color: grey;
+}
