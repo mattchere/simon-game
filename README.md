@@ -1,6 +1,10 @@
 # Simon Game
 This is a game based off of the Simon game.
 
+### Links:   
+[Surge](http://mattchere-simon-game.surge.sh/)   
+[Codepen](https://codepen.io/mattchere/pen/eEKVdw)
+
 ## User Stories:   
 - I am presented with a random series of button presses.
 - Each time I input a series of button presses correctly, I see the same series of button presses but with an additional step.
